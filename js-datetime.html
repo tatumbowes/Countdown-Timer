@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="output"></p>
+        <p id="output2"></p>
+
+        <script>
+            var dt = new Date(2003, 5, 8);
+
+            document.getElementById("output").innerHTML = dt.getFullYear();
+
+            dt.setHours(19);
+
+            document.getElementById("output2").innerHTML = dt;
+        </script>
+    </body>
+</html>
